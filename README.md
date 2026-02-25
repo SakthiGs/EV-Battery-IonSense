@@ -84,7 +84,7 @@ Field data from 28 portable 24 V LFP battery systems (≈160 Ah), each with 8 pr
 
 ---
 
-### 7. Lithium-Ion Battery Aging Dataset Based on EV Real-Driving Profiles
+### 3. Lithium-Ion Battery Aging Dataset Based on EV Real-Driving Profiles
 **Source**: Stanford Energy Control Laboratory | **Scale**: 28 months · INR21700-M50T cells
 
 Aging data for cells subjected to Urban Dynamometer Driving Schedule (UDDS) discharge and CC-CV charging. Periodic diagnostic tests include capacity measurement, HPPC, and Electrochemical Impedance Spectroscopy (EIS), capturing battery degradation under realistic driving conditions.
@@ -96,7 +96,7 @@ Aging data for cells subjected to Urban Dynamometer Driving Schedule (UDDS) disc
 
 ---
 
-### 10. EV Field Datasets — Tsinghua (464 EVs)
+### 4. EV Field Datasets — Tsinghua (464 EVs)
 **Source**: Tsinghua University | **Scale**: 464 EVs · 1.2M+ charging snippets
 
 Three large-scale real-world EV datasets from three different vehicle types, providing detailed insights into real-world charging behaviours and usage patterns at fleet scale.
@@ -105,7 +105,7 @@ Three large-scale real-world EV datasets from three different vehicle types, pro
 
 ---
 
-### 31. Predicting Battery End of Life from Solar Off-Grid Field Data
+### 5. Predicting Battery End of Life from Solar Off-Grid Field Data
 **Source**: Oxford University | **Scale**: 1,027 lead-acid batteries · Sub-Saharan Africa
 
 Performance metrics from solar off-grid systems used in lighting, phone charging, and small appliances. A rare dataset from low-resource settings that challenges assumptions built on lab or Western EV data.
@@ -116,7 +116,7 @@ Performance metrics from solar off-grid systems used in lighting, phone charging
 
 ---
 
-### 37. Challenges and Opportunities in Truck Electrification — Big Operational Data
+### 6. Challenges and Opportunities in Truck Electrification — Big Operational Data
 Large-scale operational data from commercial electric trucks, revealing real-world range, charging, and degradation challenges in heavy-duty electrification.
 
 - 📥 **[Download Dataset](https://springernature.figshare.com/articles/dataset/Challenges_and_opportunities_in_truck_electrification_unveiled_by_big_operational_data/24421210?file=44809303)**
@@ -125,7 +125,7 @@ Large-scale operational data from commercial electric trucks, revealing real-wor
 
 ---
 
-### 40. Battery Capacity Prognostics Dataset for On-Road Electric Vehicles
+### 7. Battery Capacity Prognostics Dataset for On-Road Electric Vehicles
 **Scale**: 20 EVs · 29 months
 
 Charging data with statistically derived capacity labels and data-driven features, optimised for capacity degradation modelling in real on-road vehicles.
@@ -136,7 +136,7 @@ Charging data with statistically derived capacity labels and data-driven feature
 
 ---
 
-### 45. Synthetic Duty Cycles from Real-World Autonomous EV Driving
+### 8. Synthetic Duty Cycles from Real-World Autonomous EV Driving
 Synthetic load profiles derived from autonomous EV real-world driving data, enabling controlled lab experiments that are grounded in realistic usage.
 
 - 📥 **[Download Dataset](https://purl.stanford.edu/ky011nj6376)**
@@ -145,7 +145,7 @@ Synthetic load profiles derived from autonomous EV real-world driving data, enab
 
 ---
 
-### 46. Model-Constrained Deep Learning for Online Fault Diagnosis in Li-ion Batteries
+### 9. Model-Constrained Deep Learning for Online Fault Diagnosis in Li-ion Batteries
 **Source**: BMS cloud platform | **Scale**: 515 vehicles · 18.2 million valid entries
 
 Cloud-uploaded BMS data from three battery manufacturers (anonymised). Includes rare critical failure samples: thermal runaway, electrolyte leakage, internal short circuit, and excessive ageing.
@@ -156,7 +156,7 @@ Cloud-uploaded BMS data from three battery manufacturers (anonymised). Includes 
 
 ---
 
-### 56. BEV Energy Dynamics Dataset
+### 10. BEV Energy Dynamics Dataset
 **Source**: KU Leuven | **Resolution**: 1-second time series
 
 High-resolution measurements of actual energy values across charger, battery system, and auxiliary devices. Covers charging, driving, and parking across diverse conditions — well-suited for smart charging, energy management, and AI-based predictive modelling.
@@ -167,10 +167,10 @@ High-resolution measurements of actual energy values across charger, battery sys
 
 ---
 
-### 61. Electric Vehicle Usage Data Set for Battery Aging Studies
+### 11. Electric Vehicle Usage Data Set for Battery Aging Studies
 **Scale**: 28 LFP systems · Up to 5 years · ~133 million rows
 
-Real-world field measurements from 28 portable 24 V LFP battery systems with 8 prismatic cells in series. All units were returned due to abnormal behaviour, making this a fault-biased dataset. Distinct from Dataset 2 — published separately with different scope.
+Real-world field measurements from 28 portable 24 V LFP battery systems with 8 prismatic cells in series. All units were returned due to abnormal behaviour, making this a fault-biased dataset. Distinct from Field Dataset 2 — published separately with different scope.
 
 - 📥 **[Download Dataset](https://github.com/TUMFTM/electric-vehicle-uds-dataset/tree/main)**
 - 📄 Related Articles:
@@ -184,7 +184,7 @@ Controlled laboratory experiments spanning calendar aging, cycle aging, temperat
 
 ---
 
-### 4. Second-Life Lithium-Ion Battery Aging Dataset Based on Grid Storage Cycling
+### 1. Second-Life Lithium-Ion Battery Aging Dataset Based on Grid Storage Cycling
 **Source**: Stanford Energy Control Lab | **Chemistry**: NMC
 
 Six NMC cells cycled using residential and commercial synthetic duty cycles. Purpose-built for studying second-life degradation under grid storage conditions.
@@ -195,7 +195,7 @@ Six NMC cells cycled using residential and commercial synthetic duty cycles. Pur
 
 ---
 
-### 5. Dataset of Lithium-Ion Battery Formation and Structured Aging Cycling Data
+### 2. Dataset of Lithium-Ion Battery Formation and Structured Aging Cycling Data
 **Source**: TRI (BEEP processed) | **Scale**: Formation + structured cycling data
 
 Includes raw formation data and structured aging cycling data processed by TRI BEEP, with interpolated cycling data and cycle summaries. Enables insights into the role of electrode utilisation in extending battery cycle life.
@@ -206,7 +206,7 @@ Includes raw formation data and structured aging cycling data processed by TRI B
 
 ---
 
-### 6. Full Factorial DOE Dataset for Parallel-Connected Lithium-Ion Cells
+### 3. Full Factorial DOE Dataset for Parallel-Connected Lithium-Ion Cells
 **Source**: Stanford Energy Control Laboratory | **Scale**: 54 test conditions
 
 Full factorial design of experiments on ladder-configured parallel strings. Varies temperature, cell-to-cell interconnection resistance, chemistry (NCA/NMC), and aging level. Includes individual cell current and temperature distributions.
@@ -217,7 +217,7 @@ Full factorial design of experiments on ladder-configured parallel strings. Vari
 
 ---
 
-### 8. Experimental Data — Galvanostatic Discharge at Different C-Rates and Temperatures
+### 4. Experimental Data — Galvanostatic Discharge at Different C-Rates and Temperatures
 Detailed measurements of voltage, current, and skin temperature for three lithium-ion batteries tested under galvanostatic discharge at various C-rates and temperatures via Arbin system.
 
 - 📥 **[Download Dataset](https://data.mendeley.com/datasets/kxsbr4x3j2/2)**
@@ -226,7 +226,7 @@ Detailed measurements of voltage, current, and skin temperature for three lithiu
 
 ---
 
-### 9. Increasing Generalization Capability of Battery Health Estimation — Continual Learning
+### 5. Increasing Generalization Capability of Battery Health Estimation — Continual Learning
 Pouch and prismatic cells aged under various temperatures and loading profiles. Includes partial Q curves during charging, capacities, and normalised SOH curves, with non-accelerated degradation experiment data.
 
 - 📥 **[Download Dataset](https://data.mendeley.com/datasets/n3b54nsw8m/9)**
@@ -235,7 +235,7 @@ Pouch and prismatic cells aged under various temperatures and loading profiles. 
 
 ---
 
-### 11. Experimental Degradation Study of a Commercial Lithium-Ion Battery
+### 6. Experimental Degradation Study of a Commercial Lithium-Ion Battery
 **Source**: TUM | **Scale**: 196 cells · Silicon-doped graphite anode / NCA cathode
 
 Calendar and cyclic aging under wide-ranging conditions, with periodic check-ups at 20°C. Reveals the effects of aging conditions on degradation patterns across a large cell population.
@@ -246,7 +246,7 @@ Calendar and cyclic aging under wide-ranging conditions, with periodic check-ups
 
 ---
 
-### 13. Underlying Dataset for Battery Pack Degradation Under Thermal Gradients
+### 7. Underlying Dataset for Battery Pack Degradation Under Thermal Gradients
 Raw and processed data plus analysis codes for investigating aging in parallel-connected Li-ion battery packs under thermal gradients.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/10207731)**
@@ -255,7 +255,7 @@ Raw and processed data plus analysis codes for investigating aging in parallel-c
 
 ---
 
-### 26. Data-Driven Prediction of Battery Cycle Life Before Capacity Degradation
+### 8. Data-Driven Prediction of Battery Cycle Life Before Capacity Degradation
 **Source**: Stanford / MIT | The seminal early-prediction dataset
 
 Enables prediction of battery cycle life before significant capacity degradation occurs. A foundational dataset widely used in early RUL research.
@@ -266,7 +266,7 @@ Enables prediction of battery cycle life before significant capacity degradation
 
 ---
 
-### 27. Physics-Informed Neural Network for Lithium-Ion Battery Degradation Modelling
+### 9. Physics-Informed Neural Network for Lithium-Ion Battery Degradation Modelling
 **Scale**: 55 NCM 18650 cells · 6 charge/discharge strategies
 
 Supports physics-informed neural network modelling for stable degradation analysis and prognosis across diverse operating conditions.
@@ -277,7 +277,7 @@ Supports physics-informed neural network modelling for stable degradation analys
 
 ---
 
-### 29. Prognosis of Multivariate Battery State via Transformers
+### 10. Prognosis of Multivariate Battery State via Transformers
 Processed files for multivariate battery state prediction using transformer architectures. Includes LFP fast-charging and six cathode chemistry datasets.
 
 - 📥 **[Download Dataset](https://www.materialsdatafacility.org/detail/spacetimeformer_battery_v1.2)**
@@ -287,7 +287,7 @@ Processed files for multivariate battery state prediction using transformer arch
 
 ---
 
-### 30. Battery Aging Modes Across NMC Compositions
+### 11. Battery Aging Modes Across NMC Compositions
 **Scale**: 44 NMC/Gr single-layer pouch cells
 
 Cycle-by-cycle capacity, Coulombic efficiency, and end-of-charge/discharge voltages. Includes code for battery aging mode classification using ML.
@@ -298,7 +298,7 @@ Cycle-by-cycle capacity, Coulombic efficiency, and end-of-charge/discharge volta
 
 ---
 
-### 32. ISU-ILCC Battery Aging Dataset
+### 12. ISU-ILCC Battery Aging Dataset
 **Source**: Iowa State University / University of Connecticut | **Scale**: 238 cells · 63 aging conditions
 
 Li-ion polymer cells cycled under varying charge rate, discharge rate, and depth of discharge. Designed for studying stress factor dependencies in capacity fade.
@@ -309,7 +309,7 @@ Li-ion polymer cells cycled under varying charge rate, discharge rate, and depth
 
 ---
 
-### 33. Comprehensive Battery Aging Dataset: NMC/C-SiO Capacity & Impedance Fade
+### 13. Comprehensive Battery Aging Dataset: NMC/C-SiO Capacity & Impedance Fade
 **Source**: KIT | **Scale**: 228 cells · 3 billion data points · ~600 days
 
 Wide-range operating conditions for NMC/C+SiO cells. One of the most comprehensive publicly available aging datasets for this chemistry.
@@ -321,7 +321,7 @@ Wide-range operating conditions for NMC/C+SiO cells. One of the most comprehensi
 
 ---
 
-### 38. Dynamic Cycling Enhances Battery Lifetime
+### 14. Dynamic Cycling Enhances Battery Lifetime
 Dynamic discharge profiles representative of EV driving vs. constant-current profiles. Findings show up to 38% increase in equivalent full cycles at end-of-life under dynamic profiles.
 
 - 📥 **[Download Dataset](https://purl.stanford.edu/td676xr4322)**
@@ -330,7 +330,7 @@ Dynamic discharge profiles representative of EV driving vs. constant-current pro
 
 ---
 
-### 39. Stanford Long-Term Calendar Aging Dataset
+### 15. Stanford Long-Term Calendar Aging Dataset
 **Scale**: 8 cell types · 2 SOC levels · 4 temperatures · Raw diagnostic data
 
 Calendar aging data from eight cell types (LFP, NCR, VTC6, and others) stored at 24°C, 45°C, 60°C, and 85°C. Provides decade-scale aging insights.
@@ -341,7 +341,7 @@ Calendar aging data from eight cell types (LFP, NCR, VTC6, and others) stored at
 
 ---
 
-### 42. WMG Calendar Aging Dataset — LGM50 Commercial Cells (39 Storage Conditions)
+### 16. WMG Calendar Aging Dataset — LGM50 Commercial Cells (39 Storage Conditions)
 Calendar aging from LGM50 cells at 0°C, 25°C, and 45°C across 13 SOC levels per temperature. Two-year per condition storage tests with regular RPTs.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/14577286)**
@@ -350,7 +350,7 @@ Calendar aging from LGM50 cells at 0°C, 25°C, and 45°C across 13 SOC levels p
 
 ---
 
-### 43. Cycle Aging Data of Automotive-Grade Li-ion Cells Under Realistic Conditions (VW ID.3)
+### 17. Cycle Aging Data of Automotive-Grade Li-ion Cells Under Realistic Conditions (VW ID.3)
 **Source**: TUM | **Chemistry**: NMC|Gr pouch cells (VW ID.3)
 
 Three automotive-grade cells subjected to three usage patterns over 3+ years. One of the few publicly available datasets specifically from a production EV cell.
@@ -361,7 +361,7 @@ Three automotive-grade cells subjected to three usage patterns over 3+ years. On
 
 ---
 
-### 47. Comprehensive Cycle Aging Data and Analysis for Commercial 21700 Cells
+### 18. Comprehensive Cycle Aging Data and Analysis for Commercial 21700 Cells
 Well-structured repository containing summary data, processed time-series, and raw data. Includes degradation mode analysis, resistance measurements, and aging statistics with Jupyter notebook for easy parsing.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/10637534)**
@@ -371,7 +371,7 @@ Well-structured repository containing summary data, processed time-series, and r
 
 ---
 
-### 50. Aging Dataset — LCO Battery with Mechanical Measurements
+### 19. Aging Dataset — LCO Battery with Mechanical Measurements
 **Scale**: 22Ah LCO-graphite pouch · 1125 cycles to 70% SOH
 
 Includes cycling RPTs, HPPC tests, and low-rate cycles. Uniquely provides mechanical (differential pressure) measurements alongside electrochemical data.
@@ -382,7 +382,7 @@ Includes cycling RPTs, HPPC tests, and low-rate cycles. Uniquely provides mechan
 
 ---
 
-### 51. Battery Degradation Dataset Based on a Forklift Mission Profile
+### 20. Battery Degradation Dataset Based on a Forklift Mission Profile
 Degradation data from cells cycled under a forklift mission profile — an under-represented industrial application in the literature.
 
 - 📥 **[Download Dataset](https://www.sciencedirect.com/article/pii/S2352340923009228)**
@@ -392,7 +392,7 @@ Degradation data from cells cycled under a forklift mission profile — an under
 
 ---
 
-### 57. Multi-Stage Lithium-Ion Battery Aging Study
+### 21. Multi-Stage Lithium-Ion Battery Aging Study
 **Source**: Research consortium | **Scale**: 279 cells · 71 aging scenarios · Samsung INR21700-50E
 
 Two experimental phases combining non-model-based and model-based optimal experimental design. Supports lifetime prediction, physics-based model parameterisation, and aging relationship discovery.
@@ -403,7 +403,7 @@ Two experimental phases combining non-model-based and model-based optimal experi
 
 ---
 
-### 63. UConn LCO/Gr Battery Fast Charging Dataset
+### 22. UConn LCO/Gr Battery Fast Charging Dataset
 **Source**: REIL, University of Connecticut | **Scale**: 76 coin cells · SOC-sweep + benchmark protocols
 
 SOC-sweep tests at four SOH levels (100%–70%) and 1.5C–3.5C charge rates. Benchmark tests with repeated RPTs until 70% end-of-life capacity.
@@ -414,7 +414,7 @@ SOC-sweep tests at four SOH levels (100%–70%) and 1.5C–3.5C charge rates. Be
 
 ---
 
-### 65. Discovery Learning Predicts Battery Cycle Life from Minimal Experiments
+### 23. Discovery Learning Predicts Battery Cycle Life from Minimal Experiments
 **Source**: Industrial grade | **Scale**: 123 large-format cells (73–84 Ah) · 8 cell types · 1,700 EFC max
 
 NMC811 and NMC9/Si–C cells under diverse conditions. Provides full capacity-retention trajectories plus high-resolution early-cycle data (first 50 EFCs). Organised into 37 groups to capture manufacturing variability.
@@ -431,7 +431,7 @@ Abuse test data, thermal runaway characterisation, and fault detection datasets 
 
 ---
 
-### 3. Battery Failure Databank (NREL)
+### 1. Battery Failure Databank (NREL)
 **Source**: National Renewable Energy Laboratory | **Scale**: Hundreds of abuse tests
 
 Covers nail penetration, thermal abuse, and internal short-circuit testing. Provides heat output, ejected mass data, and test-to-test variability. Most tests include associated high-speed X-ray radiography videos.
@@ -448,7 +448,7 @@ Covers nail penetration, thermal abuse, and internal short-circuit testing. Prov
 
 ---
 
-### 48. Air-Cooled Li-Ion Battery Pack from a Plug-In Hybrid Vehicle (PHEV)
+### 2. Air-Cooled Li-Ion Battery Pack from a Plug-In Hybrid Vehicle (PHEV)
 Real-world battery pack data extracted from a PHEV, enabling physics-informed deep learning for thermal fault detection.
 
 - 📥 **[Download Dataset](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/THZTJC)**
@@ -457,7 +457,7 @@ Real-world battery pack data extracted from a PHEV, enabling physics-informed de
 
 ---
 
-### 60. Battery Failure Detection and FPI Estimation During Cycling-to-Failure
+### 3. Battery Failure Detection and FPI Estimation During Cycling-to-Failure
 Real-time tracking of battery cycling-to-failure, including Faradaic process indicator (FPI) estimation. Includes surface strain measurements for failure detection.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/17651045)**
@@ -466,7 +466,7 @@ Real-time tracking of battery cycling-to-failure, including Faradaic process ind
 
 ---
 
-### 55. Li-Ion Battery Pack Cycling Dataset with CC-CV Charging and WLTP/Constant Discharge Profiles
+### 4. Li-Ion Battery Pack Cycling Dataset with CC-CV Charging and WLTP/Constant Discharge Profiles
 **Scale**: Up to 36 cells · 3 parallel branches · PARQUET format
 
 Simulates dynamic driving conditions using WLTP cycle-derived current profiles from a Tesla Model 3 vehicle model. Records cell voltages, currents, surface temperatures, and pack-level resistance. Uses a CAN bus architecture with commercial automotive BMS units.
@@ -481,7 +481,7 @@ Datasets and models for State of Charge (SoC), State of Health (SoH), and Remain
 
 ---
 
-### 12. Attention Towards Chemistry-Agnostic and Explainable Battery Lifetime Prediction (ARCANA)
+### 1. Attention Towards Chemistry-Agnostic and Explainable Battery Lifetime Prediction (ARCANA)
 Pre-trained model weights from the ARCANA framework, including models trained on lithium-ion and sodium-ion cells. Designed for explainable lifetime prediction across chemistries.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/10293072)**
@@ -490,7 +490,7 @@ Pre-trained model weights from the ARCANA framework, including models trained on
 
 ---
 
-### 20. Lithium Inventory Tracking as a Nondestructive Battery Evaluation Method
+### 2. Lithium Inventory Tracking as a Nondestructive Battery Evaluation Method
 **Scale**: 12 datasets · Li–NMC 811 cells
 
 Charge and discharge cycles under various formulations, configurations, and testing conditions. Supports lithium inventory tracking as a non-destructive monitoring technique.
@@ -501,7 +501,7 @@ Charge and discharge cycles under various formulations, configurations, and test
 
 ---
 
-### 22. GIC/NMC Solar Battery Synthetic Data
+### 3. GIC/NMC Solar Battery Synthetic Data
 **Scale**: 700,000+ unique voltage vs. capacity curves
 
 Synthetically generated with varied cell parameters to account for cell-to-cell variations. Separate training and validation sets provided.
@@ -512,7 +512,7 @@ Synthetically generated with varied cell parameters to account for cell-to-cell 
 
 ---
 
-### 23. Data-Driven Capacity Estimation from Voltage Relaxation
+### 4. Data-Driven Capacity Estimation from Voltage Relaxation
 **Scale**: 3 commercial 18650 batteries · NCA, NCM, NCM+NCA chemistries
 
 Cycling data, impedance measurements, and voltage relaxation tests. Useful for capacity estimation without full charge/discharge cycles.
@@ -523,7 +523,7 @@ Cycling data, impedance measurements, and voltage relaxation tests. Useful for c
 
 ---
 
-### 24. Impedance-Based Forecasting of Battery Performance Amid Uneven Usage
+### 5. Impedance-Based Forecasting of Battery Performance Amid Uneven Usage
 **Scale**: 88 commercial Li-ion coin cells
 
 Cycled under multistage constant current with randomly changed currents between cycles to simulate realistic usage. Explores impedance as a predictor for future performance under non-uniform usage.
@@ -534,7 +534,7 @@ Cycled under multistage constant current with randomly changed currents between 
 
 ---
 
-### 25. Identifying Degradation Patterns via Impedance Spectroscopy and Machine Learning
+### 6. Identifying Degradation Patterns via Impedance Spectroscopy and Machine Learning
 Dataset supporting ML-based identification of degradation patterns through electrochemical impedance spectroscopy analysis.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/3633835)**
@@ -543,7 +543,7 @@ Dataset supporting ML-based identification of degradation patterns through elect
 
 ---
 
-### 28. Real-Time Personalized Health Status Prediction via Deep Transfer Learning
+### 7. Real-Time Personalized Health Status Prediction via Deep Transfer Learning
 **Scale**: 77 LFP/graphite cells · Identical charge, varying discharge protocols
 
 Enables real-time health prediction using deep transfer learning across different usage profiles.
@@ -554,7 +554,7 @@ Enables real-time health prediction using deep transfer learning across differen
 
 ---
 
-### 35. Generative Learning Assisted State-of-Health Estimation for Battery Recycling
+### 8. Generative Learning Assisted State-of-Health Estimation for Battery Recycling
 Source data accompanying a generative learning framework for SoH estimation under random retirement conditions — bridging battery diagnostics and sustainable recycling.
 
 - 📥 **[Download Dataset](https://www.nature.com/articles/s41467-024-54454-0#Sec19)**
@@ -563,7 +563,7 @@ Source data accompanying a generative learning framework for SoH estimation unde
 
 ---
 
-### 41. WMG-DIB Dataset — Rapid SoH Estimation via EIS and ML
+### 9. WMG-DIB Dataset — Rapid SoH Estimation via EIS and ML
 **Scale**: 25 cylindrical cells · 5 SOH breakpoints (80%–100%)
 
 Reference performance tests, EIS measurements across SOC and temperature, and derived metrics from EIS plots. Designed specifically for rapid SoH estimation.
@@ -574,7 +574,7 @@ Reference performance tests, EIS measurements across SOC and temperature, and de
 
 ---
 
-### 44. Retired Lithium-Ion Batteries Dataset
+### 10. Retired Lithium-Ion Batteries Dataset
 Dataset supporting capacity estimation of retired batteries using random charging segments from large-scale real-world data.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/14562266)**
@@ -583,7 +583,7 @@ Dataset supporting capacity estimation of retired batteries using random chargin
 
 ---
 
-### 53. Ultrasonic and Deep-Learning Dataset for Real-Time SoC Estimation in Large-Format Cells
+### 11. Ultrasonic and Deep-Learning Dataset for Real-Time SoC Estimation in Large-Format Cells
 Experimentally collected ultrasonic waveforms from large-format Li-ion pouch cells during controlled charge/discharge. Four sensors arranged for multiple actuator–receiver paths. Provided as both raw CSV waveforms and CNN-ready image representations.
 
 - 📥 **[Download Dataset](https://github.com/hfarhaditolie/Ultrasonic-SoC)**
@@ -593,7 +593,7 @@ Experimentally collected ultrasonic waveforms from large-format Li-ion pouch cel
 
 ---
 
-### 62. Mechanistically Guided Residual Learning Dataset for Battery State Monitoring
+### 12. Mechanistically Guided Residual Learning Dataset for Battery State Monitoring
 Electrochemical characterisation and long-term cycling data from prismatic and pouch cells. Combines OCV measurements, cycling trajectories, and physics-based features with data-driven residual learning. Covers full-life degradation modelling.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/17591942)**
@@ -608,7 +608,7 @@ Datasets focused on OCV curves, impedance spectra, half-cell measurements, and e
 
 ---
 
-### 21. Probability Distributed Equivalent Circuit Model Dataset
+### 1. Probability Distributed Equivalent Circuit Model Dataset
 Supports development of a physically motivated voltage hysteresis model leveraging probability distributed equivalent circuits for enhanced performance prediction accuracy.
 
 - 📥 **[Download Dataset](https://zenodo.org/records/10852930)**
@@ -617,7 +617,7 @@ Supports development of a physically motivated voltage hysteresis model leveragi
 
 ---
 
-### 34. Source Data: Internal Sensors in a Smart Battery — Impact on Local Graphite Lithiation
+### 2. Source Data: Internal Sensors in a Smart Battery — Impact on Local Graphite Lithiation
 Reveals how embedded internal sensors affect the graphite lithiation mechanism, providing rare insight into instrumented cell behaviour.
 
 - 📥 **[Access Source Data](https://www.nature.com/articles/s41467-024-54656-6#Sec14)**
@@ -626,7 +626,7 @@ Reveals how embedded internal sensors affect the graphite lithiation mechanism, 
 
 ---
 
-### 59. Rate Capability, OCV, Impedance, and Half-Cell Data — Sodium-Ion and LFP Batteries
+### 3. Rate Capability, OCV, Impedance, and Half-Cell Data — Sodium-Ion and LFP Batteries
 Comprehensive electrochemical characterisation of two sodium-ion batteries (layered oxide cathodes) and one LFP cell. Includes pseudo-OCV, GEIS-based OCV, GEIS, R-DC, and rate capability results. Designed for systematic comparison between sodium-ion and lithium-ion technologies.
 
 - 📥 **[Download Dataset](https://doi.org/10.14459/2024mp1762675)**
@@ -635,7 +635,7 @@ Comprehensive electrochemical characterisation of two sodium-ion batteries (laye
 
 ---
 
-### 64. Data Repository for Electrochemical-Thermal Modelling of High Power Li-Ion Pouch Cells
+### 4. Data Repository for Electrochemical-Thermal Modelling of High Power Li-Ion Pouch Cells
 **Chemistry**: LFP/graphite · **Conditions**: Up to 10C, multi-SOC and C-rate tests
 
 Controlled CC discharge, pulse protocols, and high-resolution lock-in thermography for spatially resolved heat generation. Supports electrochemical–thermal model development for automotive high-power applications.
@@ -646,7 +646,7 @@ Controlled CC discharge, pulse protocols, and high-resolution lock-in thermograp
 
 ---
 
-### 19. A Cross-Scale Framework for Evaluating Flexibility Values of Battery and Fuel Cell EVs
+### 5. A Cross-Scale Framework for Evaluating Flexibility Values of Battery and Fuel Cell EVs
 *(Dataset currently unavailable — code repository linked)*
 
 - 💻 **[Code Repository](https://github.com/macroenergy/Dolphyn.jl)**
@@ -655,7 +655,7 @@ Controlled CC discharge, pulse protocols, and high-resolution lock-in thermograp
 
 ---
 
-### 58. Improving Real-World Execution of Optimised Trading Schedules for Large-Scale Battery Storage
+### 6. Improving Real-World Execution of Optimised Trading Schedules for Large-Scale Battery Storage
 **Source**: RWTH Aachen (Aachen, Germany) | **Resolution**: Second-by-second
 
 Power flows, SoC at unit and system level, grid interaction, and optimised dispatch schedules from two real-world field trial configurations of a hybrid BESS.
@@ -672,7 +672,7 @@ CT scans, X-ray radiography, synchrotron imaging, and ultrasonic characterisatio
 
 ---
 
-### 52. A Dataset of Over 1,000 Computed Tomography Scans of Battery Cells
+### 1. A Dataset of Over 1,000 Computed Tomography Scans of Battery Cells
 **Scale**: 1,015 commercially available battery cells scanned via X-ray CT
 
 Radial and axial views for cylindrical cells; x-y, x-z, and y-z views for pouch and prismatic formats. Enables non-destructive internal structural analysis.
@@ -683,7 +683,7 @@ Radial and axial views for cylindrical cells; x-y, x-z, and y-z views for pouch 
 
 ---
 
-### 54. Battery Imaging Library (BIL)
+### 2. Battery Imaging Library (BIL)
 **Scale**: 80+ scans · 8 imaging modalities · 500 billion+ voxels
 
 An open, curated repository spanning single particles to full cells. Includes raw, reconstructed, and processed data supporting multi-scale analysis and reproducible battery imaging research.
@@ -700,7 +700,7 @@ Data supporting battery reuse, second-life performance analysis, and grid-connec
 
 ---
 
-### 36. Source Data: Reuse and Recycling Pathway of Retired Batteries
+### 1. Source Data: Reuse and Recycling Pathway of Retired Batteries
 Data and code for evaluating economic and environmental functions of different reuse versus recycling decisions for retired lithium-ion batteries.
 
 - 💻 **[Code Repository](https://github.com/RuifeiMa/Reuse-and-recycling-pathway-of-retired-batteries)**
@@ -709,7 +709,7 @@ Data and code for evaluating economic and environmental functions of different r
 
 ---
 
-### 49. Long-Term Sweat Testing Data for Second-Life Batteries
+### 2. Long-Term Sweat Testing Data for Second-Life Batteries
 **Source**: Loughborough University | **Started**: 2019 (ongoing)
 
 Long-term cycling from repurposed EV batteries under six real-world scenarios: time-of-use tariffs, PV self-consumption, and frequency response services. Recorded with Chroma 17020 battery cycler; processed into individual charge–discharge cycle CSV files.
@@ -726,7 +726,7 @@ NASA prognostics datasets and specialised battery test data from non-automotive 
 
 ---
 
-### 14. NASA Battery Data Set
+### 1. NASA Battery Data Set
 Lithium-ion battery charge, discharge, and impedance experiments at different temperatures. A seminal dataset widely used in prognostics and health management (PHM) research.
 
 - 📥 **[Download Dataset](https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip)**
@@ -735,7 +735,7 @@ Lithium-ion battery charge, discharge, and impedance experiments at different te
 
 ---
 
-### 15. Randomized Battery Usage Data Set (NASA)
+### 2. Randomized Battery Usage Data Set (NASA)
 Batteries cycled with randomly generated current profiles, with periodic reference charging/discharging cycles for SOH benchmarking.
 
 - 📥 **[Download Dataset](https://phm-datasets.s3.amazonaws.com/NASA/11.+Randomized+Battery+Usage+Data+Set.zip)**
@@ -745,7 +745,7 @@ Batteries cycled with randomly generated current profiles, with periodic referen
 
 ---
 
-### 16. HIRF Battery Data Set (NASA)
+### 3. HIRF Battery Data Set (NASA)
 Battery data from experiments on the Edge 540 Aircraft in a High-Intensity Radiated Field (HIRF) Chamber.
 
 - 📥 **[Download Dataset](https://phm-datasets.s3.amazonaws.com/NASA/15.+HIRF+Battery+Data+Set.zip)**
@@ -754,7 +754,7 @@ Battery data from experiments on the Edge 540 Aircraft in a High-Intensity Radia
 
 ---
 
-### 17. Small Satellite Power Simulation (NASA)
+### 4. Small Satellite Power Simulation (NASA)
 Simulated experiments on BP930 satellite batteries using the MACCOR system. Designed for battery performance characterisation in small satellite mission profiles.
 
 - 📥 **[Download Dataset](https://data.nasa.gov/download/cpqc-ztjh/application%2Fzip)**
@@ -763,7 +763,7 @@ Simulated experiments on BP930 satellite batteries using the MACCOR system. Desi
 
 ---
 
-### 18. Accelerated Battery Life Testing (NASA)
+### 5. Accelerated Battery Life Testing (NASA)
 Accelerated lifecycle data for 18650-cell Li-ion packs under constant, random loading, and second-life conditions.
 
 - 📥 **[Download Dataset](https://data.nasa.gov/download/xg3n-ngei/application%2Fzip)**
