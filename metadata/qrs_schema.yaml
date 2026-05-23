@@ -1,0 +1,40 @@
+quantum_readiness_score:
+  description: >
+    Heuristic score for estimating whether a public battery dataset is suitable
+    for NISQ-era hybrid quantum-classical machine learning experiments.
+
+  dimensions:
+    feature_compactness:
+      high: "Compact features or easily compressible curves/spectra"
+      medium: "Moderate feature dimension after preprocessing"
+      low: "Raw high-dimensional streams, images, videos, or large unprocessed logs"
+
+    sequence_suitability:
+      high: "Short curves, EIS spectra, voltage relaxation, cycle summaries, or windowed time-series"
+      medium: "Long but windowable time-series"
+      low: "Irregular or unstructured raw logs"
+
+    label_availability:
+      high: "Clear SOH, SOC, RUL, anomaly, failure, or second-life labels"
+      medium: "Weak, derived, or partially available labels"
+      low: "Labels missing or unclear"
+
+    modality_compatibility:
+      high: "EIS, voltage relaxation, capacity curves, compact BMS windows"
+      medium: "Thermal, strain, ultrasound, magnetic, mechanical signals"
+      low: "Raw CT, X-ray, video, or large image data without embeddings"
+
+    preprocessing_burden:
+      high: "Minimal cleaning or normalization"
+      medium: "Windowing, aggregation, or feature extraction required"
+      low: "Heavy reconstruction, segmentation, or domain-specific preprocessing required"
+
+    access_reproducibility:
+      high: "Public, documented, downloadable"
+      medium: "Partially documented or source-data only"
+      low: "Restricted, unavailable, or unclear access"
+
+nisq_feasibility:
+  high: "Suitable for 4-8 qubit hybrid experiments after standard preprocessing"
+  medium: "Suitable after compression, windowing, or feature extraction"
+  low: "Not directly suitable for NISQ workflows without substantial preprocessing"
