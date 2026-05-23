@@ -69,7 +69,7 @@ Field measurements from 21 private home storage systems combined with residentia
 - 📄 Related Articles:
   - [Multi-year field measurements of home storage systems and their use in capacity estimation](https://www.nature.com/articles/s41560-024-01620-9#data-availability)
   - [Capacity estimation of home storage systems using field data](https://www.nature.com/articles/s41560-024-01662-z)
-  - [Battery Charts](https://battery-charts.rwth-aachen.de/main-page/)
+  - [Battery Charts](https://battery-charts.de/)
 
 ---
 
@@ -385,10 +385,10 @@ Includes cycling RPTs, HPPC tests, and low-rate cycles. Uniquely provides mechan
 ### 20. Battery Degradation Dataset Based on a Forklift Mission Profile
 Degradation data from cells cycled under a forklift mission profile — an under-represented industrial application in the literature.
 
-- 📥 **[Download Dataset](https://www.sciencedirect.com/article/pii/S2352340923009228)**
+- 📥 **[Download Dataset](https://www.sciencedirect.com/science/article/pii/S2352340923009228)**
 - 📄 Related Articles:
-  - [Dataset of lithium-ion battery degradation based on a forklift mission profile](https://www.sciencedirect.com/article/pii/S2352340923009228)
-  - [Sensitivity analysis for reliable state-of-health estimation based on battery partial charging](https://www.sciencedirect.com/article/pii/S2666386425002450)
+  - [Dataset of lithium-ion battery degradation based on a forklift mission profile](https://www.sciencedirect.com/science/article/pii/S2352340923009228)
+  - [Sensitivity analysis for reliable state-of-health estimation based on battery partial charging](https://www.sciencedirect.com/science/article/pii/S2666386425002450)
 
 ---
 
@@ -570,7 +570,7 @@ Reference performance tests, EIS measurements across SOC and temperature, and de
 
 - 📥 **[Download Dataset](https://data.mendeley.com/datasets/mn9fb7xdx6/3)**
 - 📄 Related Articles:
-  - [Dataset for rapid SoH estimation of lithium batteries using EIS and machine learning](https://www.sciencedirect.com/article/pii/S2352340923002767)
+  - [Dataset for rapid SoH estimation of lithium batteries using EIS and machine learning](https://www.sciencedirect.com/science/article/pii/S2352340923002767)
 
 ---
 
@@ -579,7 +579,7 @@ Dataset supporting capacity estimation of retired batteries using random chargin
 
 - 📥 **[Download Dataset](https://zenodo.org/records/14562266)**
 - 📄 Related Articles:
-  - [Capacity estimation of retired lithium-ion batteries using random charging segments from real-world data](https://www.sciencedirect.com/article/pii/S2666386425000438)
+  - [Capacity estimation of retired lithium-ion batteries using random charging segments from real-world data](https://www.sciencedirect.com/science/article/pii/S2666386425000438)
 
 ---
 
@@ -588,8 +588,8 @@ Experimentally collected ultrasonic waveforms from large-format Li-ion pouch cel
 
 - 📥 **[Download Dataset](https://github.com/hfarhaditolie/Ultrasonic-SoC)**
 - 📄 Related Articles:
-  - [Large format battery SoC estimation: ultrasonic sensing and deep transfer learning](https://www.sciencedirect.com/article/pii/S2666546825001946)
-  - [Ultrasonic guided waves as an indicator for the state-of-charge of Li-ion batteries](https://www.sciencedirect.com/article/pii/S0378775323005645)
+  - [Large format battery SoC estimation: ultrasonic sensing and deep transfer learning](https://www.sciencedirect.com/science/article/pii/S2666546825001946)
+  - [Ultrasonic guided waves as an indicator for the state-of-charge of Li-ion batteries](https://www.sciencedirect.com/science/article/pii/S0378775323005645)
 
 ---
 
@@ -631,7 +631,7 @@ Comprehensive electrochemical characterisation of two sodium-ion batteries (laye
 
 - 📥 **[Download Dataset](https://doi.org/10.14459/2024mp1762675)**
 - 📄 Related Articles:
-  - [Comparing the electrical performance of commercial sodium-ion and lithium-iron-phosphate batteries](https://www.sciencedirect.com/article/pii/S0378775325001260)
+  - [Comparing the electrical performance of commercial sodium-ion and lithium-iron-phosphate batteries](https://www.sciencedirect.com/science/article/pii/S0378775325001260)
 
 ---
 
@@ -642,7 +642,7 @@ Controlled CC discharge, pulse protocols, and high-resolution lock-in thermograp
 
 - 📥 **[Download Dataset](https://ora.ox.ac.uk/objects/uuid:fe9bad3e-8a72-4e3b-8f01-fec3324b6758)**
 - 📄 Related Articles:
-  - [Electrochemical–thermal modelling of high power Li-ion pouch cells](https://www.sciencedirect.com/article/pii/S037877532502600X)
+  - [Electrochemical–thermal modelling of high power Li-ion pouch cells](https://www.sciencedirect.com/science/article/pii/S037877532502600X)
 
 ---
 
@@ -679,7 +679,7 @@ Radial and axial views for cylindrical cells; x-y, x-z, and y-z views for pouch 
 
 - 📥 **[Download Dataset](https://plus.figshare.com/articles/dataset/A_dataset_of_over_one_thousand_computed_tomography_scans_of_battery_cells/25330501)**
 - 📄 Related Articles:
-  - [A dataset of over one thousand computed tomography scans of battery cells](https://www.sciencedirect.com/article/pii/S235234092400581X)
+  - [A dataset of over one thousand computed tomography scans of battery cells](https://www.sciencedirect.com/science/article/pii/S235234092400581X)
 
 ---
 
@@ -688,7 +688,7 @@ Radial and axial views for cylindrical cells; x-y, x-z, and y-z views for pouch 
 
 An open, curated repository spanning single particles to full cells. Includes raw, reconstructed, and processed data supporting multi-scale analysis and reproducible battery imaging research.
 
-- 📥 **[Access Library](https://www.batteryimaginglibrary.com/search)**
+- 📥 **[Access Library](https://batteryimaginglibrary.com/)**
 - 📄 Related Articles:
   - [Battery Imaging Library: Multi-length scale and multi-modal synchrotron and laboratory data](https://chemrxiv.org/engage/chemrxiv/article-details/68d3b52b3e708a7649ffd0a5)
 
@@ -757,7 +757,7 @@ Battery data from experiments on the Edge 540 Aircraft in a High-Intensity Radia
 ### 4. Small Satellite Power Simulation (NASA)
 Simulated experiments on BP930 satellite batteries using the MACCOR system. Designed for battery performance characterisation in small satellite mission profiles.
 
-- 📥 **[Download Dataset](https://data.nasa.gov/download/cpqc-ztjh/application%2Fzip)**
+- 📥 **[Download Dataset](https://data.nasa.gov/dataset/small-satellite-power-simulation)**
 - 📄 Related Articles:
   - [A battery certification testbed for small satellite missions](https://ieeexplore.ieee.org/abstract/document/7356483)
 
@@ -766,7 +766,7 @@ Simulated experiments on BP930 satellite batteries using the MACCOR system. Desi
 ### 5. Accelerated Battery Life Testing (NASA)
 Accelerated lifecycle data for 18650-cell Li-ion packs under constant, random loading, and second-life conditions.
 
-- 📥 **[Download Dataset](https://data.nasa.gov/download/xg3n-ngei/application%2Fzip)**
+- 📥 **[Download Dataset](https://data.nasa.gov/dataset/randomized-and-recommissioned-battery-dataset)**
 - 📄 Related Articles:
   - [Prognosis of Li-ion Batteries Under Large Load Variations Using Hybrid Physics-Informed Neural Networks](https://papers.phmsociety.org/index.php/phmconf/article/view/3463)
 
