@@ -1,0 +1,32 @@
+IonSense-QKG QRS robustness summary
+=====================================
+
+Primary score: weighted additive QRS
+Weights: F=0.25, S=0.20, M=0.20, L=0.15, P=0.15, A=0.05
+
+Weight-sensitivity analysis
+---------------------------
+Random perturbations: n=2000, sigma=0.05, top_k=5
+Mean Spearman rho: approximately 0.999
+Minimum Spearman rho observed in the reference run: 0.9893
+Mean Kendall tau: approximately 0.997
+Mean top-5 overlap: 1.000
+
+Top-5 membership stability:
+100%  WMG-DIB EIS Dataset
+100%  Stanford-MIT Early Cycle Life Dataset
+100%  PulseBat Retired-Cell Dataset
+100%  Voltage Relaxation Capacity Estimation Dataset
+100%  Impedance-Based Forecasting Dataset
+
+Cross-method rank agreement vs weighted additive QRS
+----------------------------------------------------
+gated_vs_additive       Spearman=1.0000  Kendall=1.0000
+continuous_vs_additive  Spearman=0.9004  Kendall=0.8032
+uniform_vs_paper_weights Spearman=0.9972 Kendall=0.9889
+
+Interpretation
+--------------
+These checks support internal consistency of the annotation scheme and
+coarse readiness-band separation. They do not validate quantum advantage
+or downstream model accuracy.

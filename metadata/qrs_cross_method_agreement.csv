@@ -1,0 +1,4 @@
+comparison,spearman,kendall
+gated_vs_additive,1.0,1.0
+continuous_vs_additive,0.9004,0.8032
+uniform_vs_paper_weights,0.9972,0.9889
