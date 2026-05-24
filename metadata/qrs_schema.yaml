@@ -1,40 +1,52 @@
-quantum_readiness_score:
-  description: >
-    Heuristic score for estimating whether a public battery dataset is suitable
-    for NISQ-era hybrid quantum-classical machine learning experiments.
+# IonSense-QKG quantum-readiness metadata schema
+# QRS is a metadata-driven feasibility heuristic, not an empirical
+# quantum-advantage or model-performance metric.
 
-  dimensions:
-    feature_compactness:
-      high: "Compact features or easily compressible curves/spectra"
-      medium: "Moderate feature dimension after preprocessing"
-      low: "Raw high-dimensional streams, images, videos, or large unprocessed logs"
+version: 0.2
+score_name: Quantum Readiness Score
+score_abbreviation: QRS
+score_interpretation: NISQ workflow readiness for future hybrid quantum-classical benchmarking
 
-    sequence_suitability:
-      high: "Short curves, EIS spectra, voltage relaxation, cycle summaries, or windowed time-series"
-      medium: "Long but windowable time-series"
-      low: "Irregular or unstructured raw logs"
+component_scale:
+  high: 1.0
+  medium: 0.5
+  low: 0.0
 
-    label_availability:
-      high: "Clear SOH, SOC, RUL, anomaly, failure, or second-life labels"
-      medium: "Weak, derived, or partially available labels"
-      low: "Labels missing or unclear"
+components:
+  feature_compactness:
+    symbol: F
+    weight: 0.25
+    description: Compactness of input features and estimated qubit feasibility.
+  sequence_suitability:
+    symbol: S
+    weight: 0.20
+    description: Suitability for short-window, curve, spectral, or summary encoding.
+  modality_compatibility:
+    symbol: M
+    weight: 0.20
+    description: Compatibility of the signal modality with quantum feature maps or hybrid encodings.
+  label_availability:
+    symbol: L
+    weight: 0.15
+    description: Availability and clarity of supervised or evaluation labels.
+  preprocessing_burden:
+    symbol: P
+    weight: 0.15
+    paper_label: preprocessing_feasibility
+    description: Ease of producing quantum-ready inputs; high means low preprocessing burden.
+  access_reproducibility:
+    symbol: A
+    weight: 0.05
+    description: Public access, documentation, citation readiness, and reproducibility.
 
-    modality_compatibility:
-      high: "EIS, voltage relaxation, capacity curves, compact BMS windows"
-      medium: "Thermal, strain, ultrasound, magnetic, mechanical signals"
-      low: "Raw CT, X-ray, video, or large image data without embeddings"
+primary_formula: "QRS(D)=0.25F(D)+0.20S(D)+0.20M(D)+0.15L(D)+0.15P(D)+0.05A(D)"
 
-    preprocessing_burden:
-      high: "Minimal cleaning or normalization"
-      medium: "Windowing, aggregation, or feature extraction required"
-      low: "Heavy reconstruction, segmentation, or domain-specific preprocessing required"
+robustness_outputs:
+  - qrs_cross_method_agreement.csv
+  - qrs_sensitivity_grid.csv
+  - qrs_robustness_report.txt
 
-    access_reproducibility:
-      high: "Public, documented, downloadable"
-      medium: "Partially documented or source-data only"
-      low: "Restricted, unavailable, or unclear access"
-
-nisq_feasibility:
-  high: "Suitable for 4-8 qubit hybrid experiments after standard preprocessing"
-  medium: "Suitable after compression, windowing, or feature extraction"
-  low: "Not directly suitable for NISQ workflows without substantial preprocessing"
+notes:
+  - QRS supports first-pass candidate selection and dataset triage.
+  - A high QRS does not imply quantum advantage or higher downstream accuracy.
+  - Low-QRS datasets may still be scientifically important but require heavier classical preprocessing or embeddings.
